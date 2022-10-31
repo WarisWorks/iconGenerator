@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		59F8C42E290F51BA00B24DB0 /* AppiconYasashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F8C42D290F51BA00B24DB0 /* AppiconYasashApp.swift */; };
+		59F8C430290F51BA00B24DB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F8C42F290F51BA00B24DB0 /* ContentView.swift */; };
+		59F8C432290F51BA00B24DB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F8C431290F51BA00B24DB0 /* Assets.xcassets */; };
+		59F8C435290F51BA00B24DB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59F8C434290F51BA00B24DB0 /* Preview Assets.xcassets */; };
+		59F8C43D290F51CC00B24DB0 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 59F8C43C290F51CC00B24DB0 /* Contents.json */; };
+		59F8C443290F524A00B24DB0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F8C442290F524A00B24DB0 /* Home.swift */; };
+		59F8C445290F528500B24DB0 /* IconViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F8C444290F528500B24DB0 /* IconViewModel.swift */; };
+		59F8C447290F54B400B24DB0 /* FontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F8C446290F54B400B24DB0 /* FontView.swift */; };
+		59F8C449290F54C500B24DB0 /* ALKATIP Kitab.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 59F8C448290F54C500B24DB0 /* ALKATIP Kitab.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59F8C42A290F51BA00B24DB0 /* AppiconYasash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppiconYasash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F8C42D290F51BA00B24DB0 /* AppiconYasashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppiconYasashApp.swift; sourceTree = "<group>"; };
+		59F8C42F290F51BA00B24DB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		59F8C431290F51BA00B24DB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		59F8C434290F51BA00B24DB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		59F8C436290F51BA00B24DB0 /* AppiconYasash.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppiconYasash.entitlements; sourceTree = "<group>"; };
+		59F8C43C290F51CC00B24DB0 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		59F8C442290F524A00B24DB0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		59F8C444290F528500B24DB0 /* IconViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconViewModel.swift; sourceTree = "<group>"; };
+		59F8C446290F54B400B24DB0 /* FontView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontView.swift; sourceTree = "<group>"; };
+		59F8C448290F54C500B24DB0 /* ALKATIP Kitab.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ALKATIP Kitab.ttf"; sourceTree = "<group>"; };
+		59F8C44A290F54F800B24DB0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59F8C427290F51BA00B24DB0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59F8C421290F51BA00B24DB0 = {
+			isa = PBXGroup;
+			children = (
+				59F8C43C290F51CC00B24DB0 /* Contents.json */,
+				59F8C42C290F51BA00B24DB0 /* AppiconYasash */,
+				59F8C42B290F51BA00B24DB0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59F8C42B290F51BA00B24DB0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59F8C42A290F51BA00B24DB0 /* AppiconYasash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59F8C42C290F51BA00B24DB0 /* AppiconYasash */ = {
+			isa = PBXGroup;
+			children = (
+				59F8C44A290F54F800B24DB0 /* Info.plist */,
+				59F8C43F290F520000B24DB0 /* ViewModel */,
+				59F8C43E290F51F400B24DB0 /* View */,
+				59F8C42D290F51BA00B24DB0 /* AppiconYasashApp.swift */,
+				59F8C42F290F51BA00B24DB0 /* ContentView.swift */,
+				59F8C431290F51BA00B24DB0 /* Assets.xcassets */,
+				59F8C436290F51BA00B24DB0 /* AppiconYasash.entitlements */,
+				59F8C448290F54C500B24DB0 /* ALKATIP Kitab.ttf */,
+				59F8C433290F51BA00B24DB0 /* Preview Content */,
+			);
+			path = AppiconYasash;
+			sourceTree = "<group>";
+		};
+		59F8C433290F51BA00B24DB0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				59F8C434290F51BA00B24DB0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		59F8C43E290F51F400B24DB0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				59F8C442290F524A00B24DB0 /* Home.swift */,
+				59F8C446290F54B400B24DB0 /* FontView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		59F8C43F290F520000B24DB0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				59F8C444290F528500B24DB0 /* IconViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59F8C429290F51BA00B24DB0 /* AppiconYasash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59F8C439290F51BA00B24DB0 /* Build configuration list for PBXNativeTarget "AppiconYasash" */;
+			buildPhases = (
+				59F8C426290F51BA00B24DB0 /* Sources */,
+				59F8C427290F51BA00B24DB0 /* Frameworks */,
+				59F8C428290F51BA00B24DB0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppiconYasash;
+			productName = AppiconYasash;
+			productReference = 59F8C42A290F51BA00B24DB0 /* AppiconYasash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		59F8C422290F51BA00B24DB0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					59F8C429290F51BA00B24DB0 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 59F8C425290F51BA00B24DB0 /* Build configuration list for PBXProject "AppiconYasash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ug,
+			);
+			mainGroup = 59F8C421290F51BA00B24DB0;
+			productRefGroup = 59F8C42B290F51BA00B24DB0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59F8C429290F51BA00B24DB0 /* AppiconYasash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59F8C428290F51BA00B24DB0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F8C435290F51BA00B24DB0 /* Preview Assets.xcassets in Resources */,
+				59F8C432290F51BA00B24DB0 /* Assets.xcassets in Resources */,
+				59F8C449290F54C500B24DB0 /* ALKATIP Kitab.ttf in Resources */,
+				59F8C43D290F51CC00B24DB0 /* Contents.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59F8C426290F51BA00B24DB0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F8C430290F51BA00B24DB0 /* ContentView.swift in Sources */,
+				59F8C443290F524A00B24DB0 /* Home.swift in Sources */,
+				59F8C42E290F51BA00B24DB0 /* AppiconYasashApp.swift in Sources */,
+				59F8C445290F528500B24DB0 /* IconViewModel.swift in Sources */,
+				59F8C447290F54B400B24DB0 /* FontView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		59F8C437290F51BA00B24DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		59F8C438290F51BA00B24DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		59F8C43A290F51BA00B24DB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = AppiconYasash/AppiconYasash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppiconYasash/Preview Content\"";
+				DEVELOPMENT_TEAM = 6L3HP4P3TC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppiconYasash/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.AppiconYasash;
+				PRODUCT_NAME = AppiconYasash;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		59F8C43B290F51BA00B24DB0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = AppiconYasash/AppiconYasash.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AppiconYasash/Preview Content\"";
+				DEVELOPMENT_TEAM = 6L3HP4P3TC;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppiconYasash/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.project.AppiconYasash;
+				PRODUCT_NAME = AppiconYasash;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		59F8C425290F51BA00B24DB0 /* Build configuration list for PBXProject "AppiconYasash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F8C437290F51BA00B24DB0 /* Debug */,
+				59F8C438290F51BA00B24DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59F8C439290F51BA00B24DB0 /* Build configuration list for PBXNativeTarget "AppiconYasash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59F8C43A290F51BA00B24DB0 /* Debug */,
+				59F8C43B290F51BA00B24DB0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 59F8C422290F51BA00B24DB0 /* Project object */;
+}
